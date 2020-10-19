@@ -11,6 +11,6 @@ public class Task5 {
         hh=TIME/3600;
         mm=((TIME-((int)hh*3600))/60);
         ss=TIME-(int)hh*3600-(int)mm*60;
-    System.out.print((int)hh +"ч "+(int)mm+"м "+(int)ss+"c ");
+    System.out.println((int)hh +"ч "+(int)mm+"м "+(int)ss+"c ");
     }
 }
