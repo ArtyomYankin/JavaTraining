@@ -2,9 +2,9 @@ package grow.online.training;
 
 public class VTask4 {
     private double A, B;
-    private double WallMax,WallMin;
+    private double WallMax,WallMin;//размеры отверстия
     private double x,y,z;
-    private double BrickMin,BrickMiddle;
+    private double BrickMin,BrickMiddle;//размеры наименьшой длины и средней длины кирпича
 
     public VTask4(double A, double B, double x, double y, double z){
         this.A=A;
@@ -22,7 +22,7 @@ public class VTask4 {
      else if (y<x && y>z)
          BrickMiddle=y;
      else BrickMiddle=z;
-        System.out.println(WallMax+" "+WallMin+" "+ BrickMin+" "+BrickMiddle);
+       // System.out.println(WallMax+" "+WallMin+" "+ BrickMin+" "+BrickMiddle);
         if (WallMax>=BrickMiddle && WallMin>=BrickMin)
             System.out.println("Кирпич пройдёт в отверстие");
         else System.out.println("Кирпич не пройдёт в отверстие");

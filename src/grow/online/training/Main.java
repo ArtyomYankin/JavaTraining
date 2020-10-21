@@ -25,4 +25,20 @@ public class Main {
     Hole.Brick();
     VTask5 VSolution = new VTask5(3);
     System.out.println("F(X) = " + VSolution.F());
+    CTask1 CiklSolution=new CTask1(6);
+    System.out.println("Сумма:"+CiklSolution.Sum());
+    CTask2 CiklSolution2=new CTask2(-3,5,2);
+    CiklSolution2.CalculateFunction();
+    CTask3 CiklSolution3 = new CTask3();
+    System.out.println("Сумма квадратов первых ста чисел: "+CiklSolution3.SumOfSqr());
+        CTask4 CiklSolution4 = new CTask4();
+        CiklSolution4.MultiOfSqr();
+        CTask5 CiklSolution5 = new CTask5(7,0.001);
+        System.out.println(CiklSolution5.SumOfABS());
+        CTask6 CiklSolution6 = new CTask6();
+        CiklSolution6.ASCII();
+        CTask7 CiklSolution7 = new CTask7(11,19);
+        CiklSolution7.Deliteli();
+        CTask8 CiklSolution8 = new CTask8(145, 269);
+        CiklSolution8.Values();
 }}
